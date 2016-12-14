@@ -1,0 +1,7 @@
+To compile Day 5 and 14, OpenSSL must be available: here is an example of how to compile:
+
+```
+cd day14
+gcc -I/usr/local/opt/openssl/include -L/usr/local/opt/openssl/lib -lcrypto day14b.c; ./a.out
+
+```
